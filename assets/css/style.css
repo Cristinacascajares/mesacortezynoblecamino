@@ -669,20 +669,19 @@ section {
 .cta {
   background: url("../img/portafolio/NC_fondo_03.jpg") fixed center center;
   background-size: cover;
-
+  position: relative;
   padding: 60px 0;
 }
 .marketnc {
   background: url("../img/NC_menu/NC_market_fondo_01.png") fixed center center;
   background-size: cover;
-
-  
+  position: relative;
   padding:60px 0;
 }
 .ctaMC {
   background:  url("../img/portafolio/MC_market_fondos_001.png") fixed center center;
   background-size: cover;
-
+  position: relative;
   padding: 200px 0;
 }
 .ctaMCT {
