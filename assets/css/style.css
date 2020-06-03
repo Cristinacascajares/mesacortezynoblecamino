@@ -668,13 +668,13 @@ section {
 --------------------------------------------------------------*/
 .cta {
   background: url("../img/portafolio/NC_fondo_03.jpg") fixed center center;
-  background-size: 100% 50%;
+  background-size: auto 80%;
   padding: 60px 0;
 }
 .marketnc {
   background: url("../img/NC_menu/NC_market_fondo_01.png") fixed center center;
-  background-size: cover;
-  padding:150px 0;
+  background-size: auto 80%;
+  padding:60px 0;
 }
 .ctaMC {
   background:  url("../img/portafolio/MC_market_fondos_001.png") fixed center center;
