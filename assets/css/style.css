@@ -678,7 +678,8 @@ section {
 }
 .ctaMC {
   background:  url("../img/portafolio/MC_market_fondos_001.png") fixed center center;
-  background-size: contain;
+  background-size: auto;
+  background-repeat: no-repeat;
   padding: 200px 0;
 }
 .ctaMCT {
