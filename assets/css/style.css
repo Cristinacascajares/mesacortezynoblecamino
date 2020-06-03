@@ -669,37 +669,38 @@ section {
 .cta {
   background: url("../img/portafolio/NC_fondo_03.jpg") fixed center center;
   background-size: cover;
-  background-repeat: no-repeat;
+
   padding: 60px 0;
 }
 .marketnc {
   background: url("../img/NC_menu/NC_market_fondo_01.png") fixed center center;
   background-size: cover;
-  background-repeat: no-repeat;
+
+  
   padding:60px 0;
 }
 .ctaMC {
   background:  url("../img/portafolio/MC_market_fondos_001.png") fixed center center;
   background-size: cover;
-  background-repeat: no-repeat;
+
   padding: 200px 0;
 }
 .ctaMCT {
   background:url("../img/portafolio/MC_MARKET_FONDOS_002.png") fixed center center;
   background-size: cover;
-  background-repeat: no-repeat;
+
   padding: 200px 0;
 }
 .ctaNC {
   background: url("../img/portafolio/NC_market_fondo_001.png") fixed center center;
   background-size: cover;
-  background-repeat: no-repeat;
+
   padding: 250px 0;
 }
 .DESAYUNOS {
   background: url("../img/portafolio/MC_DESAYUNOS_FONDO_01.png") fixed center center;
   background-size: cover;
-  background-repeat: no-repeat;
+
   padding: 150px 0;
 }
 .NCC {
