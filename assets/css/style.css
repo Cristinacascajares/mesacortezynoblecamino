@@ -667,52 +667,60 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: url("../img/portafolio/NC_fondo_03.jpg") fixed center center;
+  background: url("../img/cta/cta1.png");
+  background-attachment: initial;
   background-size: cover;
   position: relative;
   padding: 60px 0;
 }
 .marketnc {
-  background: url("../img/NC_menu/NC_market_fondo_01.png") fixed center center;
+  background: url("../img/cta/cta4.png");
+  background-attachment: initial;
+  background-position: center;
   background-size: cover;
   position: relative;
   padding:60px 0;
 }
 .ctaMC {
-  background:  url("../img/portafolio/MC_market_fondos_001.png") fixed center center;
+  background:  url("../img/cta/cta2.png");
+  background-attachment: initial;
+  background-position: center;
   background-size: cover;
   position: relative;
   padding: 200px 0;
 }
 .ctaMCT {
-  background:url("../img/portafolio/MC_MARKET_FONDOS_002.png") fixed center center;
+  background:url("../img/cta/cta3.png");
+  background-attachment: initial;
+  background-position: center;
   background-size: cover;
 
   padding: 200px 0;
 }
 .ctaNC {
-  background: url("../img/portafolio/NC_market_fondo_001.png") fixed center center;
+  background: url("../img/cta/cta5.png");
+  background-attachment: initial;
+  background-position: center;
   background-size: cover;
 
   padding: 250px 0;
 }
 .DESAYUNOS {
-  background: url("../img/portafolio/MC_DESAYUNOS_FONDO_01.png") fixed center center;
+  background: url("../img/cta/cta6.png");
+  background-attachment: initial;
+  background-position: center;
   background-size: cover;
 
   padding: 150px 0;
 }
 .NCC {
-  background:  url("../img/NC_menu/NC_fondo_bebidas_02.png") fixed center center;
+  background:  url("../img/cta/cta7.png");
+  background-attachment: initial;
+  background-position: center;
   background-size: cover;
   padding: 150px 0;
 }
 
-.MCB {
-  background:  url("../img/portafolio/MC_bebidas_001.png") fixed center center;
-  background-size: cover;
-  padding: 250px 0;
-}
 .cta .cta-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -731,6 +739,31 @@ section {
   background: #ffc451;
   border-color: #ffc451;
   color: #151515;
+}
+
+@media only screen and (min-device-width: 1300px) {
+  .cta {
+    background: url("../img/cta/cta1-desk.png");
+    background-attachment: fixed;
+  }
+  .marketnc {
+    background-attachment: fixed;
+  }
+  .ctaMC {
+    background-attachment: fixed;
+  }
+  .ctaMCT {
+    background-attachment: fixed;
+  }
+  .ctaNC {
+    background-attachment: fixed;
+  }
+  .DESAYUNOS {
+    background-attachment: fixed;
+  }
+  .NCC {
+    background-attachment: fixed;
+  }
 }
 
 /*--------------------------------------------------------------
