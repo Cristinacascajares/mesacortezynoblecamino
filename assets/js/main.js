@@ -218,3 +218,10 @@
   aos_init();
 
 })(jQuery);
+
+// overriding form default submit behavior
+$('.php-email-form').submit(function(e){
+  e.preventDefault();
+
+  alert('gracias! tu mensaje ha sido enviado con éxito.');
+});
