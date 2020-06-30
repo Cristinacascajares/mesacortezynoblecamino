@@ -667,58 +667,30 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: url("../img/cta/cta1.png");
-  background-attachment: initial;
-  background-size: cover;
+  color: #000;
   position: relative;
   padding: 60px 0;
 }
 .marketnc {
-  background: url("../img/cta/cta4.png");
-  background-attachment: initial;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  padding:60px 0;
+  padding: 10px 0;
 }
 .ctaMC {
-  background:  url("../img/cta/cta2.png");
-  background-attachment: initial;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  padding: 200px 0;
+
+  padding: 10px 0;
 }
 .ctaMCT {
-  background:url("../img/cta/cta3.png");
-  background-attachment: initial;
-  background-position: center;
-  background-size: cover;
 
-  padding: 200px 0;
+  padding: 10px 0;
 }
 .ctaNC {
-  background: url("../img/cta/cta5.png");
-  background-attachment: initial;
-  background-position: center;
-  background-size: cover;
-
-  padding: 250px 0;
+  padding: 10px 0;
 }
 .DESAYUNOS {
-  background: url("../img/cta/cta6.png");
-  background-attachment: initial;
-  background-position: center;
-  background-size: cover;
-
-  padding: 150px 0;
+  padding: 10px 0;
 }
 .NCC {
-  background:  url("../img/cta/cta7.png");
-  background-attachment: initial;
-  background-position: center;
-  background-size: cover;
-  padding: 150px 0;
+
+  padding: 10px 0;
 }
 
 .cta .cta-btn {
@@ -731,39 +703,14 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #121212;
+  color: #121212;
 }
 
 .cta .cta-btn:hover {
   background: #ffc451;
   border-color: #ffc451;
   color: #151515;
-}
-
-@media only screen and (min-device-width: 1300px) {
-  .cta {
-    background: url("../img/cta/cta1-desk.png");
-    background-attachment: fixed;
-  }
-  .marketnc {
-    background-attachment: fixed;
-  }
-  .ctaMC {
-    background-attachment: fixed;
-  }
-  .ctaMCT {
-    background-attachment: fixed;
-  }
-  .ctaNC {
-    background-attachment: fixed;
-  }
-  .DESAYUNOS {
-    background-attachment: fixed;
-  }
-  .NCC {
-    background-attachment: fixed;
-  }
 }
 
 /*--------------------------------------------------------------
