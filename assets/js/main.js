@@ -218,3 +218,25 @@
   aos_init();
 
 })(jQuery);
+
+// overriding form default submit behavior
+$('.php-email-form').submit(function(e){
+  e.preventDefault();
+  let valid = true;
+
+  const fields = document.querySelectorAll('.form-control');
+
+  fields.forEach(field => {
+    console.log(field.value);
+    if (field.value == "") {
+      valid = false;
+    }
+  });
+
+
+  if (valid) {
+    alert('gracias! tu mensaje ha sido enviado con éxito.');
+  }
+
+
+});
